@@ -26,7 +26,7 @@ pipeline{
         // Stage3 : Publish the source code to Sonarqube
         stage ('Sonarqube Analysis'){
             steps {
-                echo ' deploying...'
+                echo ' deploying with ..'
 
             }
         }
